@@ -255,10 +255,10 @@ To briefly observe what private does, let's create a new class.
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
 
-- [ ] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
+- [X] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
 autocomplete — it will generate an empty "public static void main" (psvm) method for you. Neat!
 
-- [ ] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method doesn't
+- [X] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method doesn't
 appear in the autocomplete, but `FizzBuzz.main` does! If you wanted to be able to call the helper from
 inside `Main.java`, you would need to change the access modifier on the helper.
 It turns out that IntelliJ can help us out with this too!
@@ -295,7 +295,7 @@ through the readings and coding homework over the next few of weeks.
 
 ### Task 3.3 Push your latest changes
 
-- [ ] Now that you've made some more changes to your repository, you should repeat the add, commit, push process
+- [X] Now that you've made some more changes to your repository, you should repeat the add, commit, push process
 for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message!
 
 ### Task 3.4 Pulling changes from GitHub
